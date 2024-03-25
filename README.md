@@ -8,5 +8,6 @@ npm start
 ## To run back-end:
 ```
 cd backend
+npm install
 npm run dev
 ```
