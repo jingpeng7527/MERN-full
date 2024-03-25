@@ -18,7 +18,7 @@ app.use((req, res, next) => {
     next()
 })
 
-app.use('/api/login', userRoutes)
+app.use('/api/user', userRoutes)
 app.use('/api/workouts', workoutRoutes)
 
 //connect to mongodb

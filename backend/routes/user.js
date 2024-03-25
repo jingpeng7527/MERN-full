@@ -1,16 +1,16 @@
 const express = require('express');
-const {getUser, getUsers, createUser} = require('../controllers/loginController')
+const {loginUsers, signupUsers} = require('../controllers/loginController')
 
 const router = express.Router();
 
-router.get('/', getUsers)
+// router.get('/', getUsers)
 
-router.get('/:username/:password', getUser)
+// router.get('/:username/:password', getUser)
 
-router.post('/:username/:password', createUser)
+// router.post('/:username/:password', createUser)
 
-// router.delete('/:id', deleteWorkout)
+router.post('/signup', signupUsers)
 
-// router.patch('/:id', updateWorkout)
+router.post('/login', loginUsers)
 
 module.exports = router;
