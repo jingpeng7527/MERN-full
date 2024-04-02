@@ -1,3 +1,6 @@
+## This is a MERN demo using JWT:
+<img width="807" alt="image" src="https://github.com/jingpeng7527/MERN-full/assets/114365503/0bb40642-d034-4fe9-a2ed-78eaef2266cf">
+
 ## To run front-end:
 ```
 cd frontend
